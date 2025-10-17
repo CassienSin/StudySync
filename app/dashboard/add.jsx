@@ -1,4 +1,3 @@
-// app/dashboard/add.jsx
 import React, { useState } from "react";
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Platform } from "react-native";
 import DateTimePicker from "@react-native-community/datetimepicker";
@@ -141,3 +140,4 @@ const styles = StyleSheet.create({
     color: "#667eea",
   },
 });
+// End of file: app/dashboard/add. asdssada
