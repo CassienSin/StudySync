@@ -1,0 +1,7 @@
+// metro.config.js
+const { getDefaultConfig } = require("expo/metro-config");
+const config = getDefaultConfig(__dirname);
+
+config.resolver.sourceExts.push("cjs"); // for Firebase compatibility
+
+module.exports = config;
